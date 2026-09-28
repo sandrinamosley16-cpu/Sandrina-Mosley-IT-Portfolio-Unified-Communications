@@ -1,0 +1,27 @@
+SANDRINA MOSLEY — PROFESSIONAL IT PORTFOLIO SAMPLE WORK
+
+1. Unified Communications Modernization & Migration Plan
+   Cisco CUCM-to-Microsoft Teams Voice Migration Planning
+
+2. Microsoft Teams Voice Architecture & Implementation Plan
+   Enterprise Voice Deployment, Call Routing & Operational Readiness
+
+3. Video Teleconferencing System Implementation & Deployment Plan
+   VTC Architecture, Room Readiness, Configuration, Testing & Production Handoff
+
+4. Systems Integration & Test Plan
+   Requirements Traceability, Integration Testing, Verification & Acceptance
+
+5. Unified Communications Test Strategy
+   Voice, Signaling, Routing, Endpoint, Failover & QoS Validation
+
+6. Voice System Architecture & Configuration Document
+   System Structure, Components, Configuration Requirements & Release Review
+
+7. Telecommunications Modernization Roadmap
+   Enterprise Telephony, SIP/VoIP, Carrier Services & Migration Sequencing
+
+8. PowerShell & Technical Documentation Automation
+   Microsoft 365 Administration & Engineering Documentation Workflow
+
+All sample work is portfolio/demo work and should not be represented as proprietary employer/client documentation.
