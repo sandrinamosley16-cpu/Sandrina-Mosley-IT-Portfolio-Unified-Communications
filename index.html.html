@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandrina Mosley | Professional IT Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f4f6f8;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a5f);
+      color: white;
+      text-align: center;
+      padding: 42px 20px;
+    }
+    .profile-photo {
+      width: 145px;
+      height: 145px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+    header h1 { margin: 8px 0; font-size: 2.2rem; }
+    header p { margin: 6px 0; }
+    .subtitle { font-size: 1.05rem; opacity: .95; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #ffffff;
+      border-bottom: 1px solid #dbe2ea;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #1e3a5f;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 0 12px;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 50px;
+    }
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 3px 12px rgba(15, 23, 42, .07);
+    }
+    h2 {
+      color: #0f3d66;
+      margin-top: 0;
+      border-bottom: 2px solid #dbe7f2;
+      padding-bottom: 8px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+    .tag {
+      background: #e8f0f8;
+      color: #173b5c;
+      padding: 7px 12px;
+      border-radius: 18px;
+      font-size: .92rem;
+      font-weight: 600;
+    }
+    .work-grid, .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      border: 1px solid #dbe2ea;
+      border-radius: 10px;
+      padding: 18px;
+      background: #fbfcfe;
+    }
+    .card h3 { margin-top: 0; color: #173b5c; }
+    .card a {
+      color: #0b63ce;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .card a:hover { text-decoration: underline; }
+    .protected {
+      margin-top: 20px;
+      padding: 22px;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      background: #f8fafc;
+    }
+    .protected h3 {
+      margin-top: 0;
+      color: #173b5c;
+    }
+    .password-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .password-row input {
+      flex: 1 1 280px;
+      padding: 11px 12px;
+      border: 1px solid #b8c2cc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 11px 18px;
+      border: none;
+      border-radius: 6px;
+      background: #173b5c;
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button:hover { background: #0f2d46; }
+    #passwordMessage {
+      margin-top: 10px;
+      font-weight: 700;
+    }
+    #sampleWorkLinks {
+      display: none;
+      margin-top: 18px;
+    }
+    #sampleWorkLinks ul {
+      padding-left: 20px;
+    }
+    .lock-button {
+      margin-top: 14px;
+      background: #64748b;
+    }
+    .lock-button:hover { background: #475569; }
+    footer {
+      background: #0f172a;
+      color: #dbe4ee;
+      text-align: center;
+      padding: 28px 20px;
+      font-size: .9rem;
+    }
+    footer p { max-width: 950px; margin: 9px auto; }
+    @media (max-width: 650px) {
+      header h1 { font-size: 1.75rem; }
+      nav a { display: inline-block; margin: 5px 8px; }
+      section { padding: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="profile-photo.png" alt="Sandrina Mosley" class="profile-photo">
+    <h1>Sandrina Mosley’s Professional IT Portfolio</h1>
+    <p><strong>Information Technology Professional | Unified Communications Engineer | Systems Test Engineer | Systems Engineer | Telecommunications</strong></p>
+    <p class="subtitle">Enterprise Voice • Microsoft Teams • Cisco UC • VoIP • Systems Integration &amp; Testing • IT Infrastructure</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#sample-work">Sample Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#resume">Resume</a>
+    <a href="#disclaimer">Disclaimer</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Information Technology professional and Systems/Test Engineer with 20+ years of experience supporting, designing, implementing, testing, and managing enterprise IT, telecommunications, networking, and unified communications environments.</p>
+      <p>My background includes Microsoft Teams Voice, VoIP, Cisco Unified Communications Manager, Cisco UCCX, network infrastructure, systems architecture, systems testing and quality assurance, technical documentation, PowerShell scripting, troubleshooting, project coordination, and customer support.</p>
+      <p>My documented work includes voice-system architecture and configuration documentation, customer-requirement validation, site-survey review, voice-system provisioning, peer reviews, system testing, Microsoft Teams Voice deployments, call-flow design, voice assessments, and voice modernization/migration planning.</p>
+    </section>
+
+    <section id="expertise">
+      <h2>Core IT &amp; Engineering Expertise</h2>
+      <div class="tags">
+        <span class="tag">Unified Communications</span>
+        <span class="tag">Microsoft Teams Voice</span>
+        <span class="tag">Cisco CUCM / UCCX</span>
+        <span class="tag">VoIP / SIP</span>
+        <span class="tag">Systems Engineering</span>
+        <span class="tag">Systems Testing &amp; QA</span>
+        <span class="tag">Telecommunications</span>
+        <span class="tag">Network Infrastructure</span>
+        <span class="tag">PowerShell</span>
+        <span class="tag">Microsoft 365</span>
+        <span class="tag">Technical Documentation</span>
+        <span class="tag">TCP/IP / VLAN / QoS / 802.1X</span>
+      </div>
+    </section>
+
+    <section id="sample-work">
+      <h2>Featured Sample Work</h2>
+      <p>
+        My technical documentation is protected for professional portfolio use.
+        Please enter the portfolio password below to view the sample work and
+        supporting documentation.
+      </p>
+
+      <div class="protected">
+        <h3>🔐 Protected Professional Sample Work</h3>
+        <p>Authorized viewers may enter the portfolio access password to unlock the documents.</p>
+
+        <div class="password-row">
+          <input type="password" id="portfolioPassword" placeholder="Enter portfolio password" autocomplete="off">
+          <button type="button" onclick="unlockSampleWork()">Unlock Sample Work</button>
+        </div>
+
+        <div id="passwordMessage" aria-live="polite"></div>
+
+        <div id="sampleWorkLinks">
+          <div class="work-grid">
+            <div class="card">
+              <h3>UC Modernization &amp; Migration Plan</h3>
+              <a href="01-UC-Modernization-Migration-Plan.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+
+            <div class="card">
+              <h3>Microsoft Teams Voice Implementation Plan</h3>
+              <a href="Microsoft-Teams-Voice-Implementation-plan.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+
+            <div class="card">
+              <h3>Video Teleconferencing Implementation &amp; Deployment Plan</h3>
+              <a href="sample-work/03-Video-Teleconferencing-Implementation-Deployment-Plan.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+
+            <div class="card">
+              <h3>Unified Communications Test Strategy</h3>
+              <a href="sample-work/Unified-Communications-Test-Strategy.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+
+            <div class="card">
+              <h3>Crestron Microsoft Teams Rooms Implementation &amp; Deployment Plan</h3>
+              <a href="sample-work/03-Crestron-Microsoft-Teams-Rooms-Implementation-Deployment-Plan.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+
+            <div class="card">
+              <h3>OpenScape Legacy End-User Configuration SOP</h3>
+              <a href="sample-work/OpenScape-Legacy-End-User-Configuration-SOP.pdf" target="_blank" rel="noopener">View Document</a>
+            </div>
+          </div>
+
+          <button type="button" class="lock-button" onclick="lockSampleWork()">🔒 Lock Sample Work</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience Alignment</h2>
+      <div class="experience-grid">
+        <div class="card">
+          <h3>Unified Communications Engineer</h3>
+          <p>Enterprise voice, Microsoft Teams, Cisco CUCM, VoIP/SIP, migrations, integrations, troubleshooting, and implementation.</p>
+        </div>
+        <div class="card">
+          <h3>Systems Test Engineer</h3>
+          <p>System configuration, integration testing, verification and validation, test planning, defect identification, and production readiness.</p>
+        </div>
+        <div class="card">
+          <h3>Telecommunications Engineer</h3>
+          <p>Telephony platforms, voice infrastructure, network connectivity, carrier services, SIP, and telecommunications modernization.</p>
+        </div>
+        <div class="card">
+          <h3>Systems Engineer</h3>
+          <p>Infrastructure configuration, operating systems, application integration, technical documentation, troubleshooting, and system support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Professional Resume</h2>
+      <p>
+        <a href="Sandrina_Mosley_Professional_IT_Resume.pdf" target="_blank" rel="noopener">
+          View / Download Professional IT Resume
+        </a>
+      </p>
+    </section>
+
+    <section id="disclaimer">
+      <h2>Portfolio Disclaimer</h2>
+      <p><strong>© 2026 Sandrina Mosley. All Rights Reserved.</strong></p>
+      <p>
+        Sample work contained in this portfolio was created by Sandrina Mosley for
+        professional portfolio, demonstration, and educational purposes.
+      </p>
+      <p>
+        The sample materials may not be copied, reproduced, redistributed, modified,
+        republished, sold, or presented as another person’s work without written permission.
+      </p>
+      <p>
+        Documentation has been generalized, simulated, fictionalized, or sanitized as
+        appropriate and does not intentionally contain confidential, proprietary,
+        customer-specific, personally identifiable, or restricted information.
+      </p>
+      <p>
+        Company names, configurations, diagrams, data, scenarios, and examples may be
+        fictional, generalized, sanitized, or provided for demonstration purposes only.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Sandrina Mosley. All Rights Reserved.</p>
+    <p>Professional IT Portfolio | Unified Communications • Systems Engineering • Telecommunications • Systems Testing</p>
+  </footer>
+
+  <script>
+    const portfolioPassword = "SMosley_ITPortfolio26!";
+
+    function showSampleWork() {
+      document.getElementById("sampleWorkLinks").style.display = "block";
+    }
+
+    function unlockSampleWork() {
+      const enteredPassword = document.getElementById("portfolioPassword").value;
+      const message = document.getElementById("passwordMessage");
+
+      if (enteredPassword === portfolioPassword) {
+        sessionStorage.setItem("portfolioSampleWorkUnlocked", "true");
+        showSampleWork();
+        message.textContent = "Access granted. Sample work is now available.";
+        message.style.color = "#166534";
+      } else {
+        message.textContent = "Incorrect password. Please try again.";
+        message.style.color = "#b91c1c";
+      }
+    }
+
+    function lockSampleWork() {
+      sessionStorage.removeItem("portfolioSampleWorkUnlocked");
+      document.getElementById("sampleWorkLinks").style.display = "none";
+      document.getElementById("portfolioPassword").value = "";
+      document.getElementById("passwordMessage").textContent = "Sample work has been locked.";
+      document.getElementById("passwordMessage").style.color = "#475569";
+    }
+
+    window.addEventListener("DOMContentLoaded", function () {
+      if (sessionStorage.getItem("portfolioSampleWorkUnlocked") === "true") {
+        showSampleWork();
+      }
+    });
+  </script>
+</body>
+</html>
